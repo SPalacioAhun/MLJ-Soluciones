@@ -1,0 +1,14 @@
+/* Suaviza el look del mapa Leaflet */
+.leaflet-container {
+	filter: grayscale(10%) contrast(95%);
+}
+
+/* Popup más prolijo */
+.leaflet-popup-content-wrapper {
+	border-radius: 8px;
+	font-size: 14px;
+}
+
+.leaflet-popup-content {
+	margin: 10px 14px;
+}
